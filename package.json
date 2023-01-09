@@ -1,0 +1,25 @@
+{
+  "name": "beer-app",
+  "version": "1.0.0",
+  "description": "Scrapes Reformation Brewery website and notifies me of any beer updates. Check for changes in the HTML",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "beer",
+    "brewery",
+    "releases"
+  ],
+  "author": "Brad Morgan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.2.2",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
